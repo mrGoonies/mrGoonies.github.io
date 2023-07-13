@@ -27,7 +27,7 @@ header {
 }
 
 .container-nav a img {
-    width: 60px;
+    width: 60px
 
 }
 
@@ -50,6 +50,71 @@ header {
 .container-ul li {
     margin-left: 1rem;
 }
+
+
+/* main */
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    background-color: #050608;
+}
+
+.container-main img {
+    width: 50%;
+    height: 50%;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+
+}
+
+
+.container-main div a{
+    color: #ffffff;
+    text-decoration: none;
+    border: solid 1px #ffffff;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+
+.container-biography {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-biography div h1 {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-biography .wiki {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-biography .wiki p {
+    font-size: rem;
+    font-weight: 300;
+    margin-left: 1 rem;
+    margin-right: 1rem;
+}
+
+
+.container-biography .wiki img {
+    width: 18rem;
+    height: 50%;
+    border: solid 3px #050608;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
 
 /* footer */
 .container-footer {
