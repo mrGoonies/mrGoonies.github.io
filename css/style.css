@@ -123,8 +123,9 @@ header {
     margin: 0;
     background-color: #050608;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    height: 100%;
 }
 
 .container-footer p {
