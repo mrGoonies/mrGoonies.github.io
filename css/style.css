@@ -23,6 +23,7 @@ header {
     padding: 0;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 }
 
 .container-nav a img {
