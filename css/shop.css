@@ -19,6 +19,10 @@ main h1 {
     padding: 1vh;
 }
 
+.card:hover {
+    border: solid 0.4vh #050608ff;
+}
+
 .card a {
     display: flex;
     flex-direction: column;
