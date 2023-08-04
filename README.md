@@ -11,6 +11,7 @@ Encontrarás que este proyecto utiliza las siguientes tecnologias y lenguajes:
 
 - HTML
 - CSS
+- Bootstrap
 
 ## Instalación
 Si deseas correr este sitio web en tu computadora, debes seguir los siguientes pasos:
