@@ -10,6 +10,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/icons/logo-web.png">
+    <link rel="stylesheet" href="../css/form.css">
     <script src="https://kit.fontawesome.com/af5a3a3bdd.js" crossorigin="anonymous"></script>
 </head>
 
@@ -29,30 +30,29 @@
         </nav>
     </header>
     <main>
-        <form action="">
-            <div class="mb-3">
-                <label for="example" class="form-label">Name</label>
-                <input type="text" class="form-control">
-                <label for="example" class="form-label">Email</label>
-                <input type="email" class="form-control" placeholder="name@example.com" />
-                <label for="example" class="form-label">Continent</label>
-                <select class="form-select">
-                    <option selected >Open this select menu</option>
-                    <option value="1">North America</option>
-                    <option value="2">South America</option>
-                    <option value="3">Asia</option>
-                    <option value="4">Africa</option>
-                    <option value="5">Europe</option>
-                    <option value="6">Oceania</option>
-                    <option value="7">Antarctica</option>
-                </select>
-                <div class="btn-submit">
-                    <button class="btn btn-dark" type="submit">Submit form</button>
+        <div class="container">
+            <h1 class="my-5">Newsletter</h1>
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                    <label for="floatingName">Name</label>
                 </div>
-            </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                    <label for="floatingName">Last Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="email" />
+                    <label for="floatingEmail">Email</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">I agree to receive news about daft punk in my personal email</label>
+                </div>
 
-        </form>
-
+                <button type="button" class="btn btn-outline-dark">Submit</button>
+            </form>
+        </div>
     </main>
     <footer class="container-footer">
         <p>© 2023 Daft Punk. All rights reserved. Designed by Goonies</p>

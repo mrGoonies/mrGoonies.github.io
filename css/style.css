@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap');
 
 body {
+    width: 100%;
     font-family: 'Roboto Mono', monospace;
     padding: 0;
     margin: 0;
@@ -13,27 +14,45 @@ header {
     background-color: #050608;
     position: sticky;
     top: 0%;
-
 }
 
 
 .container-nav {
     display: flex;
-    margin: 0;
-    padding: 0;
     justify-content: space-between;
     align-items: center;
 }
 
 @media screen and (max-width: 550px) {
     .container-nav {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container-nav div {
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-nav {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-footer div ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
 }
 
 .container-nav a img {
     width: 4rem;
-
+    margin-left: 3rem;
 }
 
 .container-nav div ul li {
@@ -49,12 +68,21 @@ header {
 .container-ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-right: 3rem;
 }
 
 .container-ul li {
     margin-left: 1rem;
 }
+
+@media screen and (min-width: 330px) {
+    .container-ul {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
 
 
 /* main */
@@ -120,7 +148,7 @@ header {
     margin-right: 2rem;
 }
 
-@media  (max-width: 1104px) {
+@media  screen and (max-width: 1104px) {
     .container-main {
         flex-direction: column;
     }
@@ -130,7 +158,7 @@ header {
     }
 }
 
-@media (max-width: 652px) {
+@media screen and (max-width: 652px) {
     .container-biography .wiki {
         flex-direction: column;
     }
@@ -141,7 +169,7 @@ header {
     }
 }
 
-@media (max-width: 518px) {
+@media screen and (max-width: 518px) {
     .container-main a{
         display: flex;
         justify-content: center;
@@ -151,7 +179,7 @@ header {
     }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .container-footer {
         flex-direction: column-reverse;
     }
