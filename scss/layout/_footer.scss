@@ -1,0 +1,26 @@
+.container-footer {
+    background-color: $primary_color;
+    color: $secondary_color;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+    padding-top: 2rem;
+
+    p {
+        margin-left: 1%;
+    }
+
+    .icon-footer {
+        margin-right: 1%;
+
+        a {
+            color: $secondary_color;
+            text-decoration: none;
+
+            margin-left: 0.5rem;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    background-color: $primary_color;
+
+    img {
+        width: 50%;
+        height: 50%;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    div a {
+        text-decoration: none;
+        color: $secondary_color;
+        border: solid 1px $secondary_color;
+        border-radius: 2rem;
+        padding: 1rem;
+        margin-left: 3rem;
+    }
+}
+
+.container-biography {
+    display: flex;
+    flex-direction: column;
+
+    div h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .wiki {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+
+        img {
+            width: 20rem;
+            height: 50%;
+            border: solid 3px $primary_color;
+            margin-left: 1rem;
+            margin-right: 2rem;
+        }
+
+        p {
+            font-weight: 300;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+}

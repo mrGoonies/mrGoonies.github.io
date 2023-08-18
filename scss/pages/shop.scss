@@ -1,0 +1,45 @@
+main {
+    h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: 400;
+    font-size: 3rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2vh;
+        margin: 5vh;
+
+        .card {
+            border: solid 0.4vh $card_color;
+
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            h2 {
+                margin-bottom: 0.3%;
+            }
+
+            p {
+                font-weight: 200;
+            }
+        }
+
+        .card:hover {
+            border: solid 0.4vh $primary_color;
+        }
+
+    }
+}

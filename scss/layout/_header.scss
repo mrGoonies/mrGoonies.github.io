@@ -1,0 +1,37 @@
+@import "./base/variables";
+
+header {
+    background-color: $primary_color;
+    color: $secondary_color;
+    position: sticky;
+    top: 0%;
+
+    .container-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a img {
+            width: 4rem;
+            margin-left: 3rem;
+        }
+
+        div ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        div ul li {
+            list-style: none;
+            margin-left: 1rem;
+            margin-right: 1.3rem;
+
+            a {
+                font-size: 1.2rem;
+                color: $secondary_color;
+                text-decoration: none;
+            }
+        }
+    }
+}
