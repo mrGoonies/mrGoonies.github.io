@@ -1,0 +1,36 @@
+.discography {
+    background-image: url(../../static/img/discography.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+    #title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+
+    }
+
+    .discography__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5vh;
+            margin-top: 2%;
+            margin-bottom: 5%;
+
+            iframe {
+                border: solid $primary_color;
+                border-radius: 3vh;
+                width: 100%;
+            }
+        }
+    }
+
+
+}

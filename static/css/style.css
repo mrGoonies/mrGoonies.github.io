@@ -36,8 +36,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-  padding-top: 2rem; }
+  height: 10%;
+  padding: 2rem; }
   .container-footer p {
     margin-left: 1%; }
   .container-footer .icon-footer {
@@ -116,3 +116,38 @@ main .container {
       font-weight: 200; }
   main .container .card:hover {
     border: solid 0.4vh #050608; }
+
+.discography {
+  background-image: url(../../static/img/discography.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%; }
+  .discography #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem; }
+  .discography .discography__container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .discography .discography__container div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5vh;
+      margin-top: 2%;
+      margin-bottom: 5%; }
+      .discography .discography__container div iframe {
+        border: solid #050608;
+        border-radius: 3vh;
+        width: 100%; }
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.btn {
+  margin-top: 3%;
+  margin-bottom: 50%; }
