@@ -178,11 +178,7 @@ header {
     }
 }
 
-@media screen and (max-width: 576px) {
-    .container-footer {
-        flex-direction: column-reverse;
-    }
-}
+
 
 
 /* footer */
